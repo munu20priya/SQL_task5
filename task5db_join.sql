@@ -1,3 +1,4 @@
+use task5;
 SELECT p.product_id, p.product_name, o.order_id, o.customer_name
 FROM products p
 JOIN orders o 
